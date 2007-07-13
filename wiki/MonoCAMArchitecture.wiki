@@ -16,10 +16,10 @@
   ** 2D input: line segments (possibly arcs)
   ** 3D input: triangles
   ** Output:
-  *** Linear Rapid
-  *** Linear Feed
-  *** Arc Feed
-  *** (coolant,mist,spindle,tool,etc.)
+   *** Linear Rapid
+   *** Linear Feed
+   *** Arc Feed
+   *** (coolant,mist,spindle,tool,etc.)
  * IO
   ** This is a library that can either read files and create GEO from them (import)
   ** or read GEO and write a file (export)
@@ -40,5 +40,4 @@ we need to identify some useful design patterns for how components communicate.
 The *Command* pattern is probably useful for implementing undo/redo.
 
 The *chain-of-responsibility* pattern is probably needed between GEO and GUI so that GUI knows when a change has happened in GEO
-
 
