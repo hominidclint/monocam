@@ -1,3 +1,5 @@
+Back to [MonoCAM]
+
 #plans and discussion on the architecture.
 
 = Main parts =
@@ -40,4 +42,3 @@ we need to identify some useful design patterns for how components communicate.
 The *Command* pattern is probably useful for implementing undo/redo.
 
 The *chain-of-responsibility* pattern is probably needed between GEO and GUI so that GUI knows when a change has happened in GEO
-
