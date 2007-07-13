@@ -15,6 +15,8 @@
 = Architecture =
 Some thoughts on the overall architecture should appear here
 
+MonoCAMArchitecture
+
 = Websites =
 Homepage: http://code.google.com/p/monocam
 
@@ -26,3 +28,4 @@ some other wiki pages describe CAM links and resources:
  * http://wiki.linuxcnc.org/cgi-bin/emcinfo.pl?Cam
  * http://wiki.linuxcnc.org/cgi-bin/emcinfo.pl?List_Of_CAM_References
  * http://www.editthis.info/opencam/Main_Page
+
