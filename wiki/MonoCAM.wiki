@@ -4,11 +4,19 @@
  * a CAD program - you can design and manipulate points, curves, and surfaces
  * a CAM program - you can calculate and output toolpaths for cnc-machines
  * Open-Source, licensed under GPLv2
- * written in C# and runs under mono, so it's cross-platform
+ * written in C#/mono, so it's cross-platform
 
-= Technologies/Software used =
+= Technologies/Software used = 
+ * mono
+ * tao
+ * c#
+ * OpenGL
 
 = Architecture =
 Some thoughts on the overall architecture should appear here
 
-
+= Resources =
+some other wiki pages describe CAM links and resources:
+ * http://wiki.linuxcnc.org/cgi-bin/emcinfo.pl?Cam
+ * http://wiki.linuxcnc.org/cgi-bin/emcinfo.pl?List_Of_CAM_References
+ * http://www.editthis.info/opencam/Main_Page
