@@ -3,7 +3,8 @@
 = Main parts =
 
  * GUI
-  ** This is the GUI. It has an OpenGL view of current GEO objects and it has menus and toolbars for performing CAD/CAM operations.
+  ** This is the GUI. It has an OpenGL view of current GEO objects.
+  ** menus and toolbars for performing CAD/CAM operations.
  * GEO
   ** This is a container (Object-database?) for all geometry objects.
   ** Simple GEO is Points, Lines, Triangles. They can be rendered by OpenGL and processed by CAM directly
@@ -32,5 +33,4 @@ Also discuss implementation issues such as applicable design patterns.
 == IO ==
 == TOOLLIB ==
 == CUTSIM ==
-
 
