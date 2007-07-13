@@ -7,7 +7,7 @@ Back to [MonoCAM]
  * GUI
   ** This is the GUI. It has an OpenGL view of current GEO objects.
   ** menus and toolbars for performing CAD/CAM operations.
- * GEO
+ * [GEO]
   ** This is a container (Object-database?) for all geometry objects.
   ** Simple GEO is Points, Lines, Triangles. They can be rendered by OpenGL and processed by CAM directly
   ** non-simple GEO is Circles, Arcs, Splines, Nurbs, Surfaces etc. These objects need to be tesselated into simpleGEO before rendering and/or CAM (with some exceptions)
