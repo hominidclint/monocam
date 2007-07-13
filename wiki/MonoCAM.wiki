@@ -37,7 +37,7 @@ some other wiki pages describe CAM links and resources:
   * Professional C# 2005 
  * OpenGL
   * [http://www.opengl.org/documentation/red_book/ Red Book]
-  * Blue Book
+  * [http://www.opengl.org/documentation/blue_book/ Blue Book] (Reference manual)
  * OO and Patterns
   * Gamma et al. Design Patterns
   * Design Pattern-Oriented Software Architecture(A System Of Patterns)
