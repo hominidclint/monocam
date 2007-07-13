@@ -15,7 +15,13 @@
 = Architecture =
 Some thoughts on the overall architecture should appear here
 
-= Resources =
+= Websites =
+Homepage: http://code.google.com/p/monocam
+
+= Mailing Lists =
+SVN-Announcement list: http://groups.google.com/group/monocam-svn
+
+= Other resources =
 some other wiki pages describe CAM links and resources:
  * http://wiki.linuxcnc.org/cgi-bin/emcinfo.pl?Cam
  * http://wiki.linuxcnc.org/cgi-bin/emcinfo.pl?List_Of_CAM_References
