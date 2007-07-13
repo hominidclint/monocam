@@ -1,0 +1,30 @@
+#geometry object definitions and operations etc.
+
+= GEO =
+Each geometric entity (point, curve, surface) consists of a GEO object.
+
+Each GEO object should have:
+ * Simple stuff
+  * A unique name
+  * A color
+  * A visibility switch (show/hide)
+  * A shading switch (shading/wireframe)
+ * GUI/OpenGL interface
+  * A method for generating an OpenGL display-list of itself. This display-list representation need only be accurate to about 1 pixel or slightly less.
+  * a mechanism for messaging to the GUI that something has changed and we need to generate a new display-list
+ * CAM interface
+  * A method for outputting itself in a CAM friendly format. This is mostly the same format as for OpenGL (points,lines,triangles), but the difference is that a given tolerance value in mm should be respected when converting to triangles/lines
+
+Examples of simple GEO objects are:
+ * STLSurf, a triangulated surface (for example read from an STL file)
+ * Point
+ * Line
+ * Arc/Circle
+
+Compound objects could easily be created from simple objects. Such as:
+ * rectangle (set of four lines)
+ * etc
+
+== Relational Geometry ==
+relational geometry is a nice object oriented way of implementing parametric CAD
+
