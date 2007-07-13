@@ -27,3 +27,22 @@ some other wiki pages describe CAM links and resources:
  * http://wiki.linuxcnc.org/cgi-bin/emcinfo.pl?Cam
  * http://wiki.linuxcnc.org/cgi-bin/emcinfo.pl?List_Of_CAM_References
  * http://www.editthis.info/opencam/Main_Page
+== Books ==
+ * C# NET/Mono
+  * Mono: A Developers Notebook Developers Notebook (O'reilly Jul 2004)
+  * Data Structures and Algorithms with Object-Oriented Design Patterns in C#
+  * C# 2005 for Dummies
+  * Andrew Troelsen - Pro C# 2005 and the.NET 2.0 Platform.
+  * MCGraw-Hill Osborne - Advanced C# Programming
+  * Professional C# 2005 
+ * OpenGL
+  * Red Book
+  * Blue Book
+ * OO and Patterns
+  * Gamma et al. Design Patterns
+  * Design Pattern-Oriented Software Architecture(A System Of Patterns)
+  * Design Patterns Explained - A New Perspective on Object-Oriented Design (Addison Wesley)
+ * Computational geometry, math etc.
+  * O'Rourke: Computational Geometry in C
+  * deBerg: Computational geometry, algorithms and applications
+  * Farin: [http://www.farinhansford.com/books/cagd/ Curves and Surfaces for CAGD]
