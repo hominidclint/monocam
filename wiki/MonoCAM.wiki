@@ -36,7 +36,7 @@ some other wiki pages describe CAM links and resources:
   * MCGraw-Hill Osborne - Advanced C# Programming
   * Professional C# 2005 
  * OpenGL
-  * Red Book
+  * [http://www.opengl.org/documentation/red_book/ Red Book]
   * Blue Book
  * OO and Patterns
   * Gamma et al. Design Patterns
