@@ -1,0 +1,14 @@
+#MonoCAM start page
+
+= MonoCAM is: =
+ * a CAD program - you can design and manipulate points, curves, and surfaces
+ * a CAM program - you can calculate and output toolpaths for cnc-machines
+ * Open-Source, licensed under GPLv2
+ * written in C# and runs under mono, so it's cross-platform
+
+= Technologies/Software used =
+
+= Architecture =
+Some thoughts on the overall architecture should appear here
+
+
