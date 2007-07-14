@@ -1,0 +1,17 @@
+#summary Input/Output of GEO objects.
+
+Input and Output functions read or write GEO objects from/to a file.
+
+= Post-Processors (export) =
+ * RS274 spec link here
+  * Some easy method for users to configure post-processors
+ * STEP??
+
+= STL (export+import) =
+A simple ASCII format STL reader already exists.
+
+= Wishlist =
+ * IGES
+ * DXF
+ * DWG
+ * Gerber/Excellon (PCB-related formats)
