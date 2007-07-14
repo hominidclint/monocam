@@ -29,7 +29,7 @@ up = (u.v1)*v1 + (u.v2)*v2
 up = up / sqrt(up.up)
 }}}
 
-here the dot (.) is used for vector dot-product and the cross (x) is used for vector cross product. star (*) is normal multiplication.
+here the dot (.) is used for vector dot-product and the cross (x) is used for vector cross product. star is normal multiplication.
  
 
 = zoom =
@@ -47,3 +47,28 @@ to rotate up-down you change fi. it might be a good idea to restrict fi to -pi/2
 
 = pan =
 this is a bit harder. we want to pan in the plane which is perpendicular to the vector from the camera to center.
+
+There are two panning directions left-right (lr) and up-down (ud).
+
+The camera up vector directly gives us the up-down direction. The other direction is perpendicular to the vector from the camera to center and up.
+{{{
+ud = up
+lr = (cam-center) x up
+}}}
+to get consistent panning we might want to normalize these
+{{{
+ud = ud / sqrt(ud.ud)
+lr = lr / sqrt(lr.lr)
+}}}
+then panning is just moving center by some amount in one of these directions.
+
+left-right panning:
+{{{
+center = center + alfa * lr
+}}}
+where alfa is an adjustable parameter
+
+up-down panning:
+{{{
+center = center + alfa * ud
+}}}
