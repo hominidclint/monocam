@@ -7,6 +7,32 @@ this positions the camera at (cam.x , cam.y, cam.z) and it is pointed to look at
 It makes sense to internally represent the position of the camera in [http://mathworld.wolfram.com/SphericalCoordinates.html spherical coordinates]
  (r, theta, fi)
 The transformation from spherical coords to cartesian is:
+{{{
  cam.x = r * cos(theta) * sin(fi)
  cam.y = r * sin(theta) * sin(fi)
  cam.z = r * cos(fi)
+}}}
+
+if we want an upright view of our world then it probably makes sense to always have the *up* vector calculated to orient the camera upwards. If I remember correctly the result is quite horrible if up is constant
+{{{
+up=(0,0,1)
+}}}
+
+so, we need to always orient up towards polar north pole. I don't recall the exact description of this, but it works :)
+{{{
+u = (0,0,1)
+v1 = u x cam
+v1 = v1 / sqrt(v1.v1)
+v2 = cam x v1
+v2 = v2 / sqrt(v2.v2)
+up = (u.v1)*v1 + (u.v2)*v2
+up = up / sqrt(up.up)
+}}}
+
+here the dot (.) is used for vector dot-product and the cross (x) is used for vector cross product. star (*) is normal multiplication.
+ 
+
+= zoom =
+zoom is very easy, you just change r.
+my suggestion is that this is done with the mouse-wheel.
+= rotate =
