@@ -18,9 +18,30 @@ Each triangle has once facet, three vertices and three edges. so there are three
 
 = Optimizations =
 
+The general consensus seems to be that using sin() cos() or tan() is really bad for performance. For the flat endmill and the ball-mill these can be avoided. The edge test for the toroidal mill requires sin() atan() etc. Julian Todd might have an algorithm for this using the offset-ellipse case which avoids trigonometric functions.
+
+Chuang2002 lists the following steps for their DropCutter
+ # start with the tool position (xe,ye)
+ # find the triangles under the cutter
+ # vertex test (update ze)
+  ## if vertex in inner region, se ze=zp
+  ## if vertex in outer region, do proper vertex test
+ # facet test (update ze)
+  ## if all vertices lower than current CL point, skip to next triangle
+  ## compute CC point with infinite plane.
+  ## if CC point is in triangle, compute ze
+ # edge test (update ze)
+  ## extend to infinite lines, if all lines do not intersect cutter-region, skip to next triangle
+  ## compute CC point with infinite line. if outside edge, skip to next edge
+  ## if inside edge, compute CL point and update ze 
+
+== Bucketing of triangles ==
+to find the triangles under the tool it probably makes sense to bucket the triangles into a 'checker-board' pattern.
+
 = references =
 from Anders W's blog:
  # [http://www.anderswallin.net/2007/06/drop-cutter-part-13-cutter-vs-vertex/ Vertex test]
  # [http://www.anderswallin.net/2007/06/drop-cutter-part-23-cutter-vs-facet/ Facet test] including [http://www.anderswallin.net/2007/06/point-in-triangle-test/ point-in-triangle]
  # [http://www.anderswallin.net/2007/07/drop-cutter-33-edge-test/ Edge test]
  # [http://www.anderswallin.net/2007/07/drop-cutter-might-work/ Testing DropCutter]
+
