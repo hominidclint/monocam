@@ -1,0 +1,12 @@
+#summary zooming rotating and panning the camera
+
+We are locating the camera with the gluLookAt function:
+ gluLookAt(cam.x , cam.y, cam.z, center.x, center.y, center.z, up.x, up.y, up.z)
+this positions the camera at (cam.x , cam.y, cam.z) and it is pointed to look at the point (center.x, center.y, center.z). It is oriented so that camera up is in the direction (up.x, up.y, up.z)
+
+It makes sense to internally represent the position of the camera in [http://mathworld.wolfram.com/SphericalCoordinates.html spherical coordinates]
+ (r, theta, fi)
+The transformation from spherical coords to cartesian is:
+ cam.x = r * cos(theta) * sin(fi)
+ cam.y = r * sin(theta) * sin(fi)
+ cam.z = r * cos(fi)
