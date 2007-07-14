@@ -7,7 +7,7 @@ Relational geometry (RGEO) is a nice object-oriented idea for creating a paramet
 = Introduction =
 The central idea is that of *support* and *dependence*. 
 
-The most basic object, and AbsPoint is not supported by anything (except the coordinate system), but all other objects are supported somehow by other objects. 
+The most basic object, an *AbsPoint* is not supported by anything (except the coordinate system), but all other objects are supported somehow by other objects. 
 
 For example a line requires a start-point and an end-point. If name the start point p1, the end point p2, and the line L1, then we say that L1 is supported by p1 and p2. And we say that L1 is a dependecy of p1/p2.
 
@@ -24,7 +24,12 @@ All objects share some common features:
   * Shown/Hidden
 == Special objects ==
  * Coordinate systems, aka Frames
+  * Possibly translated and rotated Frames in the future?
+  * Cylindrical or spherical coordinate systems?
  * Planes
+  * XPlane, YPlane, ZPlane
+  * 3PointPlane
+  * NormalPlane
 == Points ==
 Points are '0D' objects, that when queried 'where are you?' should return a single position (x, y, z).
 
@@ -106,3 +111,4 @@ Surfaces are '2D' objects parametrized by two variables u=[0,1] and v=[0,1]. Eac
   * Supports: one Surface, 2 or 4 snakes
   * Description: the part of Surface s bounded by the snakes
  * etc.
+
