@@ -43,7 +43,7 @@ this is also fairly easy.
 
 to rotate side-to-side you change theta
 
-to rotate up-down you change fi. it might be a good idea to restrict fi to -pi<fi<pi. try it out and see how it feels. 
+to rotate up-down you change fi. it might be a good idea to restrict fi to -pi/2<fi<pi/2. try it out and see how it feels. 
 
 = pan =
 this is a bit harder. we want to pan in the plane which is perpendicular to the vector from the camera to center.
