@@ -16,8 +16,13 @@ This directly leads to parametric CAD behaviour. If p1 or p2 is moved for some r
 There are also some special rules for creating and deleting objects. Obviously we can't create line L1 before we have the endpoints - otherwise we could not find where the line should begin and end. Another effect is that once L1 is created, we cannot delete either p1 or p2 while L1 is alive. Deleting p1 or p2 would leave L1 without supports - an impossible situation for L1. So deleting and object with dependencies should throw an error message to the user.
 
 = RGEO Objects =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+All objects share some common features:
+  * Unique name
+  * Layer number
+  * Shown/Hidden
+== Points ==
+Points are '0D' objects, that when queried 'where are you?' should return a single position (x, y, z).
+== Curves ==
+Curves are '1D' objects that extend from parameter value t=0 to parameter value t=1. They should have a method for outputting a point that lies on the curve at a give t-value (sometimes t<0 and t>1 is allowed too!)
+== Surfaces ==
+Surfaces are '2D' objects parametrized by two variables u=[0,1] and v=[0,1]. Each surface must have a function to return a point on the surface when given (u,v)
