@@ -1,4 +1,4 @@
-#geometry object definitions and operations etc.
+#summary geometry object definitions and operations etc.
 
 back to [MonoCAMArchitecture]
 
