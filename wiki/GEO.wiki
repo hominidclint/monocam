@@ -1,6 +1,6 @@
-back to [MonoCAMArchitecture]
-
 #geometry object definitions and operations etc.
+
+back to [MonoCAMArchitecture]
 
 = GEO =
 Each geometric entity (point, curve, surface) consists of a GEO object.
@@ -28,4 +28,4 @@ Compound objects could easily be created from simple objects. Such as:
  * etc
 
 == Relational Geometry ==
-relational geometry is a nice object oriented way of implementing parametric CAD
+RelationalGeometry is a nice object oriented way of implementing parametric CAD.
