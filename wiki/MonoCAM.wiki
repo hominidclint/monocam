@@ -1,4 +1,4 @@
-#MonoCAM start page
+#summary Table of contents. Start here.
 
 = MonoCAM is: =
  * a CAD program - you can design and manipulate points, curves, and surfaces
@@ -15,6 +15,11 @@
 = Architecture =
 
 [MonoCAMArchitecture] describes plans for the program architecture.
+ * GUI
+ * [CAM]
+ * [GEO]
+ * TOOLLIB
+ * CUTSIM
 
 = Websites =
 Homepage: http://code.google.com/p/monocam
