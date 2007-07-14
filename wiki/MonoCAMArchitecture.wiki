@@ -1,6 +1,6 @@
-Back to [MonoCAM]
+#summary Main components of MonoCAM
 
-#plans and discussion on the architecture.
+Back to [MonoCAM]
 
 = Main parts =
 
