@@ -41,4 +41,8 @@ we need to identify some useful design patterns for how components communicate.
 
 The *Command* pattern is probably useful for implementing undo/redo.
 
-The *chain-of-responsibility* pattern is probably needed between GEO and GUI so that GUI knows when a change has happened in GEO
+The *chain-of-responsibility* pattern is probably needed between GEO and GUI so that GUI knows when a change has happened in GEO.
+
+The abstract-factory idea could be used for import of geometry.
+
+Something on C# patterns is found here: http://en.csharp-online.net/CSharp_Design_Patterns_Made_Simple
