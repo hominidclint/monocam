@@ -70,7 +70,7 @@ Curves are '1D' objects that extend from parameter value t=0 to parameter value 
 
  * LineCurve
   * Support: two Points, start and endpoint
-  * equation: p1 + t*(p2-p1)
+  * equation: {{{p1 + t*(p2-p1)}}}
   * description: a line from point p1 to point p2
  * ArcCurve
   * Support: three Points
