@@ -1,5 +1,7 @@
 #summary GUI implementation and features.
 
+back to [MonoCAMArchitecture]
+
 = GUI stuff =
  * OpenGL view (see below). Start with only one view. Possibility later of multiple views like in Rhino or other CAD programs.
  * Menus/toolbars. We need a smart dynamic config file for the menus and toolbars. It should be easy to reconfigure the location of commands and add/remove new commands.
