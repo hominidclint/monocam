@@ -12,10 +12,8 @@ back to [MonoCAMArchitecture]
  * Progress bar (used by complex CAD/CAM operations to show how long an algorithm will take) (is multi-threading worth it? i.e. GUI in thread1, CAD in thread2, CAM in thread3)
 
 = OpenGL view feature list =
- * camera control: (the mouse events or keyboard keys used for this should be selectable by the user, for example mouse-wheel zooms, drag with left button pans, with right button rotates)
-  * zoom
-  * pan
-  * rotate
+ * camera control: (the mouse events or keyboard keys used for this should be selectable by the user, for example mouse-wheel zooms, drag with left button pans, with right button rotates) see ZoomRotatePan
+
  * shortcut keys to X,Y,Z-projection
  * Grid. In the X,Y,Z views we should be able to turn on/off a background grid(color adjustable). The grid should autoscale when zooming.
  * coordinate view (at what coordinates is the mouse located)
