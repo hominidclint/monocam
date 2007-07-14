@@ -2,12 +2,20 @@
 
 Back to [MonoCAMArchitecture]
 
+Relational geometry (RGEO) is a nice object-oriented idea for creating a parametric CAD. My own experience with it comes from MultiSurf, a product by [http://www.aerohydro.com/ Aerohydro Inc].
+
 = Introduction =
+The central idea is that of *support* and *dependence*. 
 
-Add your content here.
+The most basic object, and AbsPoint is not supported by anything (except the coordinate system), but all other objects are supported somehow by other objects. 
 
+For example a line requires a start-point and an end-point. If name the start point p1, the end point p2, and the line L1, then we say that L1 is supported by p1 and p2. And we say that L1 is a dependecy of p1/p2.
 
-= Details =
+This directly leads to parametric CAD behaviour. If p1 or p2 is moved for some reason, L1 should get an update signal and update its own position accordingly.
+
+There are also some special rules for creating and deleting objects. Obviously we can't create line L1 before we have the endpoints - otherwise we could not find where the line should begin and end. Another effect is that once L1 is created, we cannot delete either p1 or p2 while L1 is alive. Deleting p1 or p2 would leave L1 without supports - an impossible situation for L1. So deleting and object with dependencies should throw an error message to the user.
+
+= RGEO Objects =
 
 Add your content here.  Format your content with:
   * Text in *bold* or _italic_
