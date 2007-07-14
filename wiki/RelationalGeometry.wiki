@@ -60,7 +60,49 @@ Points that lie on surfaces are called *Magnets*. They are located by calling th
  * RelMagnet
  * CopyMagnet
 
+Points that lie on *Snakes* are called *Rings*. All the usual types exist:
+ * AbsRing
+ * RelRing
+ * CopyRing
+
 == Curves ==
 Curves are '1D' objects that extend from parameter value t=0 to parameter value t=1. They should have a method for outputting a point that lies on the curve at a give t-value (sometimes t<0 and t>1 is allowed too!)
+
+ * LineCurve
+  * Support: two Points, start and endpoint
+  * equation: p1 + t*(p2-p1)
+  * description: a line from point p1 to point p2
+ * ArcCurve
+  * Support: three Points
+  * equation: depends on type
+  * description: arc or circle, about 6 different types exist
+ * PolyCurve
+  * Support: one or more Curves: c1, c2, c3, ...cn
+  * description: composite curve starts at c1 and goes to end of cn
+ * SubCurve
+  * Support: one Curve c and two Beads b1 and b2
+  * description: the part of Curve c that lies between beads b1 and b2)
+ * SplineCurve
+  * Support: three or more Points
+  * description: spline with some equation depending on points
+
+Curves that lie on surfaces are called *Snakes*. They have magnets as their supports, and they live in the (u,v) coordinate system of the supporting surface.
+ * LineSnake
+ * ArcSnake
+ * PolySnake
+ * EdgeSnake
+ * SubSnake
+ * SplineSnake
+ * etc
+
+
 == Surfaces ==
 Surfaces are '2D' objects parametrized by two variables u=[0,1] and v=[0,1]. Each surface must have a function to return a point on the surface when given (u,v)
+
+ * RuledSurf
+  * Supports: two Curves
+  * Description: surface made by connecting two master curves with lines 
+ * SubSurf
+  * Supports: one Surface, 2 or 4 snakes
+  * Description: the part of Surface s bounded by the snakes
+ * etc.
