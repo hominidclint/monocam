@@ -1,7 +1,11 @@
 #summary Drop-cutter algorithm.
 
-CL point = Cutter location point. The position of the cutter.
-CC point = Cutter contact point. Where the cutter touches the model.
+Back to [CAM]
+
+Some definitions:
+ # C(R,r) is a cutter with shaft radius R and corner radius r
+ # CL point = Cutter location point. The position of the cutter.
+ # CC point = Cutter contact point. Where the cutter touches the model.
 
 = Introduction =
 The basic idea is to drop down a cutter along the z-axis until it touches the triangulated model. This is done by testing the cutter against all triangles and then choosing the highest found CL point.
