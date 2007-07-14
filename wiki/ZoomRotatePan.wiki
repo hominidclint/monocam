@@ -1,5 +1,7 @@
 #summary zooming rotating and panning the camera
 
+back to [GUI]
+
 We are locating the camera with the gluLookAt function:
  gluLookAt(cam.x , cam.y, cam.z, center.x, center.y, center.z, up.x, up.y, up.z)
 this positions the camera at (cam.x , cam.y, cam.z) and it is pointed to look at the point (center.x, center.y, center.z). It is oriented so that camera up is in the direction (up.x, up.y, up.z)
