@@ -1,4 +1,7 @@
 #summary CAM algorithms (input/output/function)
+
+Back to [MonoCAMArchitecture]
+
 == CAM ==
 One way of dividing these algorithms is into 1D/2D/3D:
 1D Toolpaths
