@@ -1,0 +1,4 @@
+#summary describe the ToolPath geometry object.
+
+back to [MonoCAMArchitecture]
+
