@@ -1,9 +1,14 @@
 #summary geometry object definition.
 
-* glData
- * color
- * rendermode (shade/wireframe)
- * type (point, line, triangle)
- * points (interpreted as coordinates for either point, line, triangle)
-* properties
- * what properties of this object can the GUI edit
+Each geometry object should have these common features
+
+ * glData
+  * color
+  * rendermode (shade/wireframe)
+  * type (point, line, triangle)
+  * points (interpreted as coordinates for either point, line, triangle)
+ * properties (what properties of this object can the GUI edit)
+  * layer
+  * color
+  * rendermode
+  * shown/hidden
