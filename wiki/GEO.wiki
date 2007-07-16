@@ -2,15 +2,24 @@
 
 back to [MonoCAMArchitecture]
 
-= GEO =
+= How Geometry is stored=
+There should be a container for geometry objects, and maybe a separate one for ToolPath data.
+
+When either the GUI or a CAM function or a file import function wants to create new geometry objects it should probably be done with something like
+{{{
+geo_container.add(new Point(x,y,z))
+geo_container.add(new Line(x1,y1,z1,x2,y2,z2))
+}}}
+The geo_container should have a mechanism for telling the GUI whenever a change has occurred. The gui will the requires the glData from the object and create a display-list for it. The same thing happens when the object is moved (for example dragging a point), or when the object is deleted.
+
+It possibly makes sense to have a different container for toolpath data because these are exclusively created by CAM operations and they are modified through the operations manager and not through the normal CAD interface. See ToolPath
+
+== Individual GEO Objects ==
 Each geometric entity (point, curve, surface) consists of a GEO object.
 
 Each GEO object should have:
 
-Each geometry object should have these common features
-
- * glData
-
+Each geometry object should have these common methods available (probably makes sense to implement this as an Interface?)
  * properties (what properties of this object can the GUI edit)
   * A unique name
   * some method for automagically finding out the list of possible properties is needed!
