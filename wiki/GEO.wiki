@@ -6,16 +6,24 @@ back to [MonoCAMArchitecture]
 Each geometric entity (point, curve, surface) consists of a GEO object.
 
 Each GEO object should have:
- * Simple stuff
+
+Each geometry object should have these common features
+
+ * glData
+
+ * properties (what properties of this object can the GUI edit)
   * A unique name
-  * A color
-  * Layer information
-  * A visibility switch (show/hide)
-  * A shading switch (shading/wireframe)
- * GUI/OpenGL interface
-  * A method for generating an OpenGL display-list of itself. This display-list representation need only be accurate to about 1 pixel or slightly less.
-   * depending on the object the display list may contain POINT, LINE or TRIANGLE data
-   * the object should probably store the display-list ID 
+  * some method for automagically finding out the list of possible properties is needed!
+  * layer
+  * color
+  * rendermode
+  * shown/hidden
+ * glData (i.e. an OpenGL interface)
+  * color
+  * rendermode (shade/wireframe)
+  * type (point, line, triangle)
+  * points (interpreted as coordinates for either point, line, triangle)
+  * the object should probably store the display-list ID 
   * a mechanism for messaging to the GUI that something has changed and we need to generate a new display-list
  * CAM interface
   * A method for outputting itself in a CAM friendly format. This is mostly the same format as for OpenGL (points,lines,triangles), but the difference is that a given tolerance value in mm should be respected when converting to triangles/lines
