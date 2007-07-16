@@ -8,6 +8,7 @@ Each geometry object should have these common features
   * type (point, line, triangle)
   * points (interpreted as coordinates for either point, line, triangle)
  * properties (what properties of this object can the GUI edit)
+  * some method for automagically finding out the list of possible properties is needed!
   * layer
   * color
   * rendermode
