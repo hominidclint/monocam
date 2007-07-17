@@ -53,3 +53,5 @@ some other wiki pages describe CAM links and resources:
   * O'Rourke: Computational Geometry in C
   * deBerg: Computational geometry, algorithms and applications
   * Farin: [http://www.farinhansford.com/books/cagd/ Curves and Surfaces for CAGD]
+
+= CamVideos =
