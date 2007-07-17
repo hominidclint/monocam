@@ -52,6 +52,8 @@ we want to pan in the plane which is perpendicular to the vector from the camera
 
 There are two panning directions left-right (lr) and up-down (ud).
 
+*Note* these calculations are the same for dragging. When the user drags a point or a geometry object it should move in the same plane as panning is done.
+
 The camera up vector directly gives us the up-down direction. The other direction is perpendicular to the vector from the camera to center and up.
 {{{
 ud = up
