@@ -4,6 +4,7 @@ The visualization toolkit is one option for rendering.
 
  * homepage: http://www.kitware.com/ 
  * .NET wrappers here http://vtkdotnet.sourceforge.net/
+ * wikipedia http://en.wikipedia.org/wiki/VTK
 
 VTK is documented in two books
  * user guide: http://www.kitware.com/products/vtkguide.html
