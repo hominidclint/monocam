@@ -8,3 +8,5 @@ The visualization toolkit is one option for rendering.
 VTK is documented in two books
  * user guide: http://www.kitware.com/products/vtkguide.html
  * textbook: http://www.kitware.com/products/vtktextbook.html
+
+There is a video here http://video.google.com/videoplay?docid=654054312268943772 but it's in some strange language...
