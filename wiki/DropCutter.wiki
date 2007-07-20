@@ -38,7 +38,11 @@ Chuang2002 lists the following steps for their DropCutter
 == Bucketing of triangles ==
 to find the triangles under the tool it probably makes sense to bucket the triangles into a 'checker-board' pattern.
 
-= references =
+= DropCutter References =
+papers
+ # Chuang2002 http://dx.doi.org/10.1007/PL00003965  describes DropCutter for flat, filleted and ball-nose cutters. The edge test requires use of trigonometric functions(slow?)
+ # Hwang1998 http://dx.doi.org/10.1016/S0010-4485(98)00021-9  DropCutter for flat, filleted and ball-nose cutters. Edge test with iterative solution to some equations
+ # Yau2004 http://dx.doi.org/10.1080/00207540410001671651 DropCutter for a general APT-style cutter. This includes cutters with pointed ends and tapered cutters. See also the freesteel blog on [http://www.freesteel.co.uk/wpblog/2007/02/one-tapered-tool-diagram-coming-up/ tapered-cutters]
 from Anders W's blog:
  # [http://www.anderswallin.net/2007/06/drop-cutter-part-13-cutter-vs-vertex/ Vertex test]
  # [http://www.anderswallin.net/2007/06/drop-cutter-part-23-cutter-vs-facet/ Facet test] including [http://www.anderswallin.net/2007/06/point-in-triangle-test/ point-in-triangle]
