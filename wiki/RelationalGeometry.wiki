@@ -4,6 +4,14 @@ Back to [MonoCAMArchitecture]
 
 Relational geometry (RGEO) is a nice object-oriented idea for creating a parametric CAD. My own experience with it comes from MultiSurf, a product by [http://www.aerohydro.com/ Aerohydro Inc].
 
+A paper describing this approach can be found here: http://dx.doi.org/10.1016/0010-4485(95)00003-8
+"Relationalnext term geometric synthesis: Part 1—framework"
+John S Letcher, Jr , D Michael Shook and Simon G Shepherd
+Computer-Aided Design
+Volume 27, Issue 11, November 1995, Pages 821-832
+
+A patent here: http://www.patentstorm.us/patents/5627949-fulltext.html
+
 = Introduction =
 The central idea is that of *support* and *dependence*. 
 
@@ -111,4 +119,3 @@ Surfaces are '2D' objects parametrized by two variables u=[0,1] and v=[0,1]. Eac
   * Supports: one Surface, 2 or 4 snakes
   * Description: the part of Surface s bounded by the snakes
  * etc.
-
