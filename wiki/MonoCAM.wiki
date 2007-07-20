@@ -23,8 +23,8 @@
  * CUTSIM
 
 = Websites =
-Homepage: http://code.google.com/p/monocam
-cam-occ, Mark Pictors work with Opencascade http://cam.occ.googlepages.com/home
+ * Homepage: http://code.google.com/p/monocam
+ * cam-occ, Mark Pictors work with Opencascade http://cam.occ.googlepages.com/home
 
 = Mailing Lists =
 SVN-Announcement list: http://groups.google.com/group/monocam-svn
