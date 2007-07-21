@@ -12,9 +12,9 @@ The basic idea is to drop down a cutter along the z-axis until it touches the tr
 
 = Basic tests =
 Each triangle has once facet, three vertices and three edges. so there are three tests to be performed.
-  # vertex test for the vertices
-  # facet test 
-  # edge test for the three edges
+  # vertex test for the three vertices
+  # facet test. this usually determines a CC point with the plane containing the triangle and then performs a point-in-triangle test to see if the CC point is within the facet
+  # edge test for the three edges. this also is usually done first for an infinite line and then a check is made to see if the CC point is within the edge.
 
 = Optimizations =
 
@@ -38,6 +38,8 @@ Chuang2002 lists the following steps for their DropCutter
 == Bucketing of triangles ==
 to find the triangles under the tool it probably makes sense to bucket the triangles into a 'checker-board' pattern.
 
+another option described in Yau2004 is to construct a k-d-tree of all the triangles. a search for those triangles that are under the cutter can then be performed rapidly. Yau uses rectangular bounding boxes for both the cutter and each triangle.
+
 = DropCutter References =
 papers
  # Chuang2002 http://dx.doi.org/10.1007/PL00003965  describes DropCutter for flat, filleted and ball-nose cutters. The edge test requires use of trigonometric functions(slow?)
@@ -48,4 +50,3 @@ from Anders W's blog:
  # [http://www.anderswallin.net/2007/06/drop-cutter-part-23-cutter-vs-facet/ Facet test] including [http://www.anderswallin.net/2007/06/point-in-triangle-test/ point-in-triangle]
  # [http://www.anderswallin.net/2007/07/drop-cutter-33-edge-test/ Edge test]
  # [http://www.anderswallin.net/2007/07/drop-cutter-might-work/ Testing DropCutter]
-
