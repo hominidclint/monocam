@@ -1,0 +1,10 @@
+#summary A list of other open-source CAM projects.
+
+
+  * cam-occ http://code.google.com/p/cam-occ/
+   * C++, OpenCascade
+  * GCAM http://gcam.js.cx
+  * codeg http://sourceforge.net/projects/codeg/
+   * DXF to G-code
+  * Linux/GNU cad-cam http://gnu-cad-cam.sourceforge.net/
+   * not much else than a design document...
