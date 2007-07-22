@@ -9,11 +9,12 @@ Input and Output functions read or write GEO objects from/to a file.
   * Some easy method for users to configure post-processors
  * STEP??
 
-= STL (export+import) =
-A simple ASCII format STL reader already exists.
 
-= Wishlist =
+= Formats =
+ * STL
+  * http://www.ennex.com/~fabbers/StL.asp
  * IGES
+  * http://www.iges5x.org/misc/
  * DXF
  * DWG
  * Gerber/Excellon (PCB-related formats)
