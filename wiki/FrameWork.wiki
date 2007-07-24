@@ -7,7 +7,15 @@
  * CGAL http://www.cgal.org/
   * C++ library of efficient and reliable algorithms
   * License: CGAL can be used together with Open Source software free of charge.
+ * Graphics Gems Repository http://www.acm.org/tog/GraphicsGems/
+  * "All code here can be used without restrictions"
 
 = Graphics =
  * Open Cascade http://www.opencascade.org/
  * [VTK] http://www.vtk.org/
+
+= Commercial =
+It's unlikely that we will be able to use any commercial code. But it might be useful to list some links here anyway.
+ * http://www.csharpopenglframework.com/
+ * http://www.algorithmic-solutions.com/
+ * http://www.buildingblock.com/
