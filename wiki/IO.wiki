@@ -19,3 +19,4 @@ Input and Output functions read or write GEO objects from/to a file.
  * DXF
  * DWG
  * Gerber/Excellon (PCB-related formats)
+  * http://www.apcircuits.com/resources/information/gerber_data.html
