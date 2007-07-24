@@ -17,5 +17,7 @@
 = Commercial =
 It's unlikely that we will be able to use any commercial code. But it might be useful to list some links here anyway.
  * http://www.csharpopenglframework.com/
+  * has a free download here: http://www.csharpopenglframework.com/basic_edition.html
+  * replaced by this: http://www.devdept.com/eyeshot/
  * http://www.algorithmic-solutions.com/
  * http://www.buildingblock.com/
