@@ -1,0 +1,13 @@
+#summary Useful frameworks and libraries.
+
+= Geometry =
+ * GTS (Triangulated Surface Library) http://gts.sourceforge.net
+  * License: LGPL
+  * C-library
+ * CGAL http://www.cgal.org/
+  * C++ library of efficient and reliable algorithms
+  * License: CGAL can be used together with Open Source software free of charge.
+
+= Graphics =
+ * Open Cascade http://www.opencascade.org/
+ * VTK http://www.vtk.org/
