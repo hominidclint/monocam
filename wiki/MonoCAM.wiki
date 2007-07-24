@@ -7,32 +7,25 @@
  * Open-Source, licensed under GPLv2
  * written in C#/mono, so it's cross-platform
 
-= Technologies/Software used = 
- * mono
- * tao
- * c#
- * OpenGL
-
 = Architecture =
-
 [MonoCAMArchitecture] describes plans for the program architecture.
  * GUI
  * [CAM]
+  * DropCutter
  * [GEO]
+  * RelationalGeometry
  * TOOLLIB
  * CUTSIM
 
 It's not clear yet if we should write everything from scratch or use some kind of FrameWork.
 
-= Websites =
+= Links  =
  * Homepage: http://code.google.com/p/monocam
  * Mailing Lists: SVN-Announcement list: http://groups.google.com/group/monocam-svn
-
-= Other resources =
-some other wiki pages describe CAM links and resources:
  * http://wiki.linuxcnc.org/cgi-bin/emcinfo.pl?Cam
  * http://wiki.linuxcnc.org/cgi-bin/emcinfo.pl?List_Of_CAM_References
  * http://www.editthis.info/opencam/Main_Page
+
 There are also OtherProjects
 
 There is a BookList with books related to the project.
