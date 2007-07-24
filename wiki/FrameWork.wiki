@@ -10,4 +10,4 @@
 
 = Graphics =
  * Open Cascade http://www.opencascade.org/
- * VTK http://www.vtk.org/
+ * [VTK] http://www.vtk.org/
