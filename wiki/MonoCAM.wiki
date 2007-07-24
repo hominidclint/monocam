@@ -22,6 +22,8 @@
  * TOOLLIB
  * CUTSIM
 
+It's not clear yet if we should write everything from scratch or use some kind of FrameWork.
+
 = Websites =
  * Homepage: http://code.google.com/p/monocam
  * cam-occ, Mark Pictors work with Opencascade http://cam.occ.googlepages.com/home
