@@ -9,11 +9,15 @@
 
 = Architecture =
 [MonoCAMArchitecture] describes plans for the program architecture.
- * GUI
- * [CAM]
-  * DropCutter
+ * GUI (interaction with the user, OpenGL redering)
+  * ZoomRotatePan (a bit of math for gluLookAt)
+ * [CAM] (toolpath calculations)
+  * DropCutter (raster-finish paths on surfaces)
+  * TravelingSalesman (optimizing drilling etc operations)
  * [GEO]
   * RelationalGeometry
+  * ToolPath  
+ * [IO] (Input/Output of geometry and toolpaths)
  * TOOLLIB
  * CUTSIM
 
@@ -21,7 +25,7 @@ It's not clear yet if we should write everything from scratch or use some kind o
 
 = Links  =
  * Homepage: http://code.google.com/p/monocam
- * Mailing Lists: SVN-Announcement list: http://groups.google.com/group/monocam-svn
+ * SVN Mailing list http://groups.google.com/group/monocam-svn
  * http://wiki.linuxcnc.org/cgi-bin/emcinfo.pl?Cam
  * http://wiki.linuxcnc.org/cgi-bin/emcinfo.pl?List_Of_CAM_References
  * http://www.editthis.info/opencam/Main_Page
