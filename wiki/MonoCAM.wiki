@@ -26,10 +26,7 @@ It's not clear yet if we should write everything from scratch or use some kind o
 
 = Websites =
  * Homepage: http://code.google.com/p/monocam
- * cam-occ, Mark Pictors work with Opencascade http://cam.occ.googlepages.com/home
-
-= Mailing Lists =
-SVN-Announcement list: http://groups.google.com/group/monocam-svn
+ * Mailing Lists: SVN-Announcement list: http://groups.google.com/group/monocam-svn
 
 = Other resources =
 some other wiki pages describe CAM links and resources:
@@ -37,25 +34,7 @@ some other wiki pages describe CAM links and resources:
  * http://wiki.linuxcnc.org/cgi-bin/emcinfo.pl?List_Of_CAM_References
  * http://www.editthis.info/opencam/Main_Page
 There are also OtherProjects
-== Books ==
- * C# NET/Mono
-  * Mono: A Developers Notebook Developers Notebook (O'reilly Jul 2004)
-  * Data Structures and Algorithms with Object-Oriented Design Patterns in C#
-  * C# 2005 for Dummies
-  * Andrew Troelsen - Pro C# 2005 and the.NET 2.0 Platform.
-  * MCGraw-Hill Osborne - Advanced C# Programming
-  * Professional C# 2005 
- * OpenGL
-  * [http://www.opengl.org/documentation/red_book/ Red Book]
-  * [http://www.opengl.org/documentation/blue_book/ Blue Book] (Reference manual)
-  * OpenGL Super Bible
- * OO and Patterns
-  * Gamma et al. Design Patterns
-  * Design Pattern-Oriented Software Architecture(A System Of Patterns)
-  * Design Patterns Explained - A New Perspective on Object-Oriented Design (Addison Wesley)
- * Computational geometry, math etc.
-  * O'Rourke: Computational Geometry in C
-  * deBerg: Computational geometry, algorithms and applications
-  * Farin: [http://www.farinhansford.com/books/cagd/ Curves and Surfaces for CAGD]
 
-= CamVideos =
+There is a BookList with books related to the project.
+
+Looking at other CAM systems: CamVideos 
