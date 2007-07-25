@@ -9,6 +9,8 @@
   * License: CGAL can be used together with Open Source software free of charge.
  * Graphics Gems Repository http://www.acm.org/tog/GraphicsGems/
   * "All code here can be used without restrictions"
+ * Geometry algorithms http://geometryalgorithms.com/
+  * code, books, articles etc.
 
 = Graphics =
  * Open Cascade http://www.opencascade.org/
