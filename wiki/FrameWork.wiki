@@ -15,6 +15,8 @@
 = Graphics =
  * Open Cascade http://www.opencascade.org/
  * [VTK] http://www.vtk.org/
+ * Coin3D http://www.coin3d.org/
+  * "Coin3D is a high-level, retained-mode toolkit for effective 3D graphics development. Cross-platform, full access to source code, no royalties or run-time fees."
 
 = Commercial =
 It's unlikely that we will be able to use any commercial code. But it might be useful to list some links here anyway.
