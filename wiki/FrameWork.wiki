@@ -19,6 +19,13 @@
   * "Coin3D is a high-level, retained-mode toolkit for effective 3D graphics development. Cross-platform, full access to source code, no royalties or run-time fees."
  * OpenSceneGraph http://www.openscenegraph.org/projects/osg
   * LGPL-like license
+ * Axiom (a NET port of OGRE) http://sourceforge.net/projects/axiomengine/
+  * LGPL license
+  * mostly for 3D games, but could be useful for CAD too
+  * forum: http://axiomengine.sourceforge.net/forum/index.php
+  * wiki: http://axiomengine.sourceforge.net/wiki/index.php/Main_Page
+ * OGRE http://www.ogre3d.org/
+  * C++, LGPL
 
 = Commercial =
 It's unlikely that we will be able to use any commercial code. But it might be useful to list some links here anyway.
