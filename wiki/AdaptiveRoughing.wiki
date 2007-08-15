@@ -1,5 +1,7 @@
 #summary ideas and algorithms for adaptive roughing.
 
+This is a rather un-organized collection of ideas related to adaptive roughing. More to follow as the ideas develop.
+
 = Introduction =
 
 The idea with adaptive roughing is to calculate the tool path using a simulation. That way you can control how much material is moved at all times, if we are using a conventional cut or a climb cut, how sharp corners we make etc.
