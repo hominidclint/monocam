@@ -25,6 +25,7 @@ once we have a pocket or contour (from the offset algorithm) we need to clear(ro
 
 = 3D algorithms =
  * Drop-Cutter (work in progress)
+  ** sample rate calculation needed
  * kd-tree search for triangles under the cutter
  * Push-cutter
  * STL surface z-slice
