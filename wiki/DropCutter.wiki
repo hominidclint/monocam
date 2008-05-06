@@ -40,6 +40,17 @@ to find the triangles under the tool it probably makes sense to bucket the trian
 
 another option described in Yau2004 is to construct a k-d-tree of all the triangles. a search for those triangles that are under the cutter can then be performed rapidly. Yau uses rectangular bounding boxes for both the cutter and each triangle.
 
+= Object Oriented Drop-Cutter =
+
+  * Cutter
+  ** VertexDrop
+  ** EdgeDrop
+  ** FacetDrop
+  * Cutter sub-classes:
+   ** CylindricalCutter
+   ** SphericalCutter
+   ** ToroidalCutter
+
 = DropCutter References =
 papers
  # Chuang2002 http://dx.doi.org/10.1007/PL00003965  describes DropCutter for flat, filleted and ball-nose cutters. The edge test requires use of trigonometric functions(slow?)
