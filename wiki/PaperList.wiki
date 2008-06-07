@@ -1,0 +1,18 @@
+#summary A list of CAM-related academic papers
+
+= Introduction =
+
+This page will list academic papers related to CAM. Please add any papers you have to this list. The papers are usually available by email if you ask kindly on the monocam list.
+
+Papers should be organized roughly by category below. It doesn't make sense to list the whole abstract here, it's usually available free on the web, but do provide some comments on what the paper contains or the main ideas.
+
+See also the BookList
+
+= Drop-Cutter =
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
+
+= Z-slice =
+
+= Cutting Simulation =
