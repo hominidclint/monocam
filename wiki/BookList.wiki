@@ -6,6 +6,7 @@
  * deBerg: Computational geometry, algorithms and applications
  * Farin: [http://www.farinhansford.com/books/cagd/ Curves and Surfaces for CAGD]
  * Faux & Pratt: "Computational Geometry for Design and Manufacture"
+ * Held, Martin, "On the Computational Geometry of Pocket Machining", Lecture Notes in Computer Science nr500
 
 = C# NET/Mono =
  * Mono: A Developers Notebook Developers Notebook (O'reilly Jul 2004)
