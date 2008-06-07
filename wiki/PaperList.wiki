@@ -6,13 +6,36 @@ This page will list academic papers related to CAM. Please add any papers you ha
 
 Papers should be organized roughly by category below. It doesn't make sense to list the whole abstract here, it's usually available free on the web, but do provide some comments on what the paper contains or the main ideas.
 
+When only the DOI of a paper is give you can reach it through http://dx.doi.org
+
 See also the BookList
 
 = Drop-Cutter =
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+ * Yau, Chuang, Lee (2004) "Numerical control machining of triangulated sculptured surfaces in a stereo lithography format with a generalized cutter", International Journal of Production Research 42:13 2573-2598
+  * link [http://dx.doi.org/10.1080/00207540410001671651]
+  * summary: Describes the drop-cutter algorithm for a generalized 'APT-type' toroidal/tapered cutter. Also discusses a kd-tree for finding triangles under the cutter.
+ * Hwang, Chang (1998) "Three-axis machining of compound surfaces using flat and filleted endmills", Computer Aided Design 30(8)  1998
+  * link: http://dx.doi.org/10.1016/S0010-4485(98)00021-9
+  * summary: describes the drop-cutter algorithm for cylindrical, spherical, and toroidal endmills.
+ * Chuang, Chen, Yau (2002) "A Reverse Engineering Approach to Generating Interference-Free Tool Paths in Three-Axis Machining from Scanned Data of Physical Models", Int J Adv Manuf Technol (2002) 19:23–31
+  * link: http://dx.doi.org/10.1007/PL00003965
+  * summary: meshing of point-cloud data, drop-cutter math for toroidal endmills
 
 = Z-slice =
+ * Chuang, Yau (2005) "A new approach to z-level contour machining of triangulated surface models using fillet endmills", Computer-Aided Design 37 (2005) 1039–1051
+  * link  doi:10.1016/j.cad.2004.10.005
+  * summary: z-slice algorithm for creating waterline paths
 
 = Cutting Simulation =
+ * Maeng et al. (2003) "A Z-map update method for linearly moving tools" Computer-Aided Design 35 (2003) 995–1009
+  * link doi:10.1016/S0010-4485(02)00161-6
+  * summary: math+algorithm for updating a z-map model when a toroidal tool is moved with linear moves
+ * Maeng et al. (2004) "A fast NC simulation method for circularly moving tools in the Z-map environment", IEEE Proceedings of the Geometric Modeling and Processing 2004 (GMP’04)
+  * link ?
+  * summary: z-map update algorithm for circular/arc moves
+= Curve Offset =
+ * 
+= Adaptive Machining =
+ * Flutter and Todd (2001) "A machining strategy for toolmaking", Computer Aided Design
+  * link http://dx.doi.org/10.1016/S0010-4485(00)00136-6
+  * summary: adaptive machining based on z-map stock model
