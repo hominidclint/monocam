@@ -47,8 +47,8 @@ See also the BookList
  * Held, "VRONI: An engineering approach to the reliable and efficient computation of Voronoi diagrams of points and line segments" Computation Geometry 18 (2001)
   * http://dx.doi.org/10.1016/S0925-7721(01)00003-7
  * Kim, Lee, Yang "A new offset algorithm for closed 2D lines with Islands" Int J Adv Manuf Technol (2006) (DOI:10.1007/s00170-005-0013-1)
- * Park and Choi "Uncut free pocketing tool-paths generation using pair-wise offset algorithm" CAD 33 (2001) 
-  * http://dx.doi.org/10.1016/S0010-4485(00)00109-3
+ * Park and Choi "Uncut free pocketing tool-paths generation using pair-wise offset algorithm" CAD 33 (2001)  http://dx.doi.org/10.1016/S0010-4485(00)00109-3
+ * Park and Choi "Free-form die-cavity pocketing" Int J adv manuf technol 22 (2003) DOI:10.1007/s00170-003-1703-1
  * Liu et al "An offset algorithm for polyline curves" Computers in Industry (2007)
   * http://dx.doi.org/10.1016/j.compind.2006.06.002
  * Hansen and Arbab "An algorithm for generating NC tool paths for arbitrary shaped pockets with islands" ACM transactions on graphics (1992)
@@ -60,3 +60,5 @@ See also the BookList
  * Flutter and Todd (2001) "A machining strategy for toolmaking", Computer Aided Design
   * link http://dx.doi.org/10.1016/S0010-4485(00)00136-6
   * summary: adaptive machining based on z-map stock model
+ * Choi and Kim "Die-cavity pocketing via cutting simulation" CAD 29 (1997)
+  * DOI: 10.1016/S0010-4485(97)00031-6
